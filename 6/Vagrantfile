@@ -20,5 +20,5 @@ Vagrant.configure("2") do |config|
   sudo apt install -y python3-django python3-venv
 SHELL
 
-  config.vm.synced_folder "./6", "/home/vagrant"
+  config.vm.synced_folder "./6", "/home/vagrant/6"
 end
